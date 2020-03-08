@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo "👨S<200d>💻: SSH login: $USER on $(hostname -f) from $(echo $SSH_CLIENT | cut -d' ' -f1)" | /usr/local/sbin/notify.py) &
+(echo "👨💻: SSH login: $USER on $(hostname -f) from $(echo $SSH_CLIENT | cut -d' ' -f1)" | /usr/local/sbin/notify.py) &
